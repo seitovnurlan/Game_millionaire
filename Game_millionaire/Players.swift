@@ -19,9 +19,7 @@ class Players {
         self.cash = cash
         self.answer = answer
     }
-    func addPlayers(_ person: Players) {
-        var listarray = [Players] ()
-        listarray.append(person)
-        
+    func playerInfo() {
+        print("Имя: \(name), номер игрока: \(number), заработал: \(cash), его ответы: \(answer)")
     }
 }
